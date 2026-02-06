@@ -41,3 +41,26 @@ Certifique-se de ter o **[Node.js](https://nodejs.org/)** instalado.
 1. **Clone o repositório:**
    ```bash
    git clone [https://github.com/EmanuelIna/gerenciador-de-tarefas.git](https://github.com/EmanuelIna/gerenciador-de-tarefas.git)
+
+ * Acesse a pasta do projeto:
+   cd gerenciador-de-tarefas
+
+ * Instale as dependências:
+   npm install
+
+ * Inicie o servidor de desenvolvimento:
+   npm run dev
+
+ * Acesse a aplicação:
+   O terminal mostrará o link local (geralmente http://localhost:5173).
+📁 Estrutura de Pastas
+A estrutura principal do projeto está organizada da seguinte forma:
+gerenciador-de-tarefas/
+├── public/              # Arquivos estáticos
+├── src/
+│   ├── components/      # Componentes reutilizáveis (Botões, Listas, etc.)
+│   ├── App.jsx          # Componente principal
+│   ├── main.jsx         # Ponto de entrada do React
+│   └── index.css        # Estilos globais e diretivas do Tailwind
+├── tailwind.config.js   # Configuração do Tailwind CSS
+└── vite.config.js       # Configuração do Vite
